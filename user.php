@@ -7,14 +7,14 @@
 		private $user_id;
 		private $first_name;
 		private $last_name;
-	    private $city_name;
-		//private $connection;
+	        private $city_name;
+		
 		
 		function__construct($first_name, $last_name, $city_name){
 		    $this->first_name = $first_name;
 			$this->last_name = $last_name;
 			$this->city_name = $city_name;
-			//$this->connection = new DBConnector;
+			
 		}
 		
 		
